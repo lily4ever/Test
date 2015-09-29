@@ -13,7 +13,6 @@
 		E3976E211BBA40EA00E04023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3976E1F1BBA40EA00E04023 /* Main.storyboard */; };
 		E3976E241BBA40EA00E04023 /* Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3976E221BBA40EA00E04023 /* Test.xcdatamodeld */; };
 		E3976E261BBA40EA00E04023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3976E251BBA40EA00E04023 /* Assets.xcassets */; };
-		E3976E291BBA40EA00E04023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3976E271BBA40EA00E04023 /* LaunchScreen.storyboard */; };
 		E3976E341BBA40EB00E04023 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3976E331BBA40EB00E04023 /* TestTests.m */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 		E3976E201BBA40EA00E04023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3976E231BBA40EA00E04023 /* Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Test.xcdatamodel; sourceTree = "<group>"; };
 		E3976E251BBA40EA00E04023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3976E281BBA40EA00E04023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3976E2A1BBA40EA00E04023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3976E2F1BBA40EB00E04023 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3976E331BBA40EB00E04023 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				E3976E1D1BBA40EA00E04023 /* ViewController.m */,
 				E3976E1F1BBA40EA00E04023 /* Main.storyboard */,
 				E3976E251BBA40EA00E04023 /* Assets.xcassets */,
-				E3976E271BBA40EA00E04023 /* LaunchScreen.storyboard */,
 				E3976E2A1BBA40EA00E04023 /* Info.plist */,
 				E3976E221BBA40EA00E04023 /* Test.xcdatamodeld */,
 				E3976E161BBA40EA00E04023 /* Supporting Files */,
@@ -194,7 +191,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3976E291BBA40EA00E04023 /* LaunchScreen.storyboard in Resources */,
 				E3976E261BBA40EA00E04023 /* Assets.xcassets in Resources */,
 				E3976E211BBA40EA00E04023 /* Main.storyboard in Resources */,
 			);
@@ -246,14 +242,6 @@
 				E3976E201BBA40EA00E04023 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E3976E271BBA40EA00E04023 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E3976E281BBA40EA00E04023 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -406,6 +394,7 @@
 				E3976E3A1BBA40EB00E04023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3976E3B1BBA40EB00E04023 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +403,7 @@
 				E3976E3D1BBA40EB00E04023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
